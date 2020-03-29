@@ -1,0 +1,8 @@
+.dirty-fog {
+    background: linear-gradient(90deg, rgba(185,147,214,1) 0%, rgba(140,166,219,1) 100%);
+}
+
+html, 
+body {
+    height: 100%;
+}

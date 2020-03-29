@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+  <div class="container" id="main">
+      <div class="row">
+          <div class="d-none d-sm-block col-sm-5 p-1" id="profile_col">
+          </div>
+          <div class="col-12 col-sm-7 p-1" id="questions_col">
+          </div>
+      </div>
+  </div>
+  <script src="{% static 'js/process/landing.js' %}"></script>
+{% endblock content%}

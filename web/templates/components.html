@@ -1,0 +1,48 @@
+<template id="login">
+    <div class="container h-100 pb-4" id="loginDiv">
+        <div class="row h-100 flex-row justify-content-center align-items-center">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+            <div class="card border-primary" id="login_card">
+            <div class="card-header bg-white">Askal</div>
+                <div class="card-body">
+                    <h4 class="card-title" id="message">Please login</h4>
+                    <div class="form-group" id="username">
+                        <label for="InputEmail">Email address</label>
+                        <input type="email" class="form-control" id="username_field" aria-describedby="emailHelp" placeholder="Enter email">
+                        <div class="invalid-feedback">This field may not be blank.</div>
+                    </div>
+                    <div class="form-group" id="password">
+                        <label for="InputPassword">Password</label>
+                        <input type="password" class="form-control" id="password_field" placeholder="Password">
+                        <div class="invalid-feedback">This field may not be blank.</div>
+                    </div>
+                    <div class="row justify-content-around d-flex">
+                        <button type="button" class="btn btn-link">Register</button>
+                        <button class="btn btn-secondary" type="submit" id="login_btn">Login</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</template>
+
+<template id="navbar">
+    <div class="container-fluid sticky-top p-0" id="navbarDiv">
+        <nav class="navbar navbar-dark bg-primary mb-1">
+            <div class="container d-flex justify-content-center justify-content-lg-between">
+                <div class="col d-none d-lg-block pl-0">
+                    <p class="text-white h5 mb-1 mt-2">Project Askal</p>
+                </div>
+                <div class="col d-flex justify-content-center justify-content-lg-end">
+                    <div class="row">
+                        <p class="text-white h5 mb-1 mt-2"><i class="fas mx-2 fa-home"></i>Home</p>
+                        <p class="text-white h5 mb-1 mt-2"><i class="fas mx-2 fa-user-alt"></i>Profile</p>
+                        <p class="text-white h5 mb-1 mt-2"><i class="fas mx-2 fa-envelope"></i>Inbox</p>
+                        <p class="text-white h5 mb-1 mt-2"><i class="fas mx-2 fa-bell"></i>Notifications</p>
+                    </div>
+                </div>
+            </div>
+          </nav>
+        </div>
+</template>
